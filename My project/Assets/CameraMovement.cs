@@ -5,11 +5,10 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
 
-    public Rigidbody2D Player;
-    public int velocityFac;
-    void LateUpdate()
+    public Transform followTransform;
+    void FixedUpdate()
     {
-
-           // transform.Translate(Vector2.right * Input.GetAxis("Horizontal") / velocityFac, Space.World);
+        this.transform.position = new Vector3(followTransform.position.x, followTransform.position.y, this.transform.position.z);
+        //transform.position = new Vector2(Player.position.x + 6, Player.position.y);
     }
 }

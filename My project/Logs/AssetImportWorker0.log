@@ -4,27 +4,27 @@ Build type:              Release
 Batch mode:              YES
 macOS version:           Version 13.3.1 (Build 22E261)
 Darwin version:          22.4.0
-Architecture:            x86_64
+Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        8192 MB
 Using pre-set license
 Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/MacOS/Unity
+/Users/rishisridhar/Documents/2021.3.17f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/kunal/Documents/GitHub/hairgame/My project
+/Users/rishisridhar/Documents/GitHub/hairgame/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52421
-Successfully changed project path to: /Users/kunal/Documents/GitHub/hairgame/My project
-/Users/kunal/Documents/GitHub/hairgame/My project
+59488
+Successfully changed project path to: /Users/rishisridhar/Documents/GitHub/hairgame/My project
+/Users/rishisridhar/Documents/GitHub/hairgame/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,109 +54,112 @@ Successfully changed project path to: /Users/kunal/Documents/GitHub/hairgame/My 
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704372917056] Host "[IP] 10.40.23.69 [Port] 0 [Flags] 2 [Guid] 4128247479 [EditorId] 4128247479 [Version] 1048832 [Id] OSXEditor(0,Old-Macbook-pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8387517248] Host "[IP] 10.40.23.10 [Port] 0 [Flags] 2 [Guid] 2395859668 [EditorId] 2395859668 [Version] 1048832 [Id] OSXEditor(0,Rishis-MacAir.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704372917056] Host "[IP] 10.40.23.69 [Port] 0 [Flags] 2 [Guid] 4128247479 [EditorId] 4128247479 [Version] 1048832 [Id] OSXEditor(0,Old-Macbook-pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8387517248] Host "[IP] 10.40.23.10 [Port] 0 [Flags] 2 [Guid] 2395859668 [EditorId] 2395859668 [Version] 1048832 [Id] OSXEditor(0,Rishis-MacAir.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 213.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 118.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/kunal/Documents/GitHub/hairgame/My project/Assets
+[Subsystems] Discovering subsystems at path /Users/rishisridhar/Documents/2021.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rishisridhar/Documents/GitHub/hairgame/My project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+ preferred device: Apple M1 (high power)
 Metal devices available: 1
-0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56318
+Mono path[0] = '/Users/rishisridhar/Documents/2021.3.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/rishisridhar/Documents/2021.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/rishisridhar/Documents/2021.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56342
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001154 seconds.
+Register platform support module: /Users/rishisridhar/Documents/2021.3.17f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Users/rishisridhar/Documents/2021.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002093 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 177.97 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.728 seconds
+- Completed reload, in  0.545 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1728ms)
-		BeginReloadAssembly (243ms)
+	ReloadAssembly (545ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1041ms)
-			LoadAssemblies (241ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (295ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (369ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (94ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (586ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (219ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (178ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (101ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006021 seconds.
+Registered in 0.007162 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/kunal/Documents/GitHub/hairgame/My project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/kunal/Documents/GitHub/hairgame/My project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/rishisridhar/Documents/GitHub/hairgame/My project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/rishisridhar/Documents/GitHub/hairgame/My project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 154.64 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.782 seconds
+- Completed reload, in  0.808 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2784ms)
-		BeginReloadAssembly (206ms)
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (2308ms)
-			LoadAssemblies (354ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (797ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (169ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (113ms)
-			SetupLoadedEditorAssemblies (925ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (332ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (155ms)
-				BeforeProcessingInitializeOnLoad (150ms)
-				ProcessInitializeOnLoadAttributes (519ms)
-				ProcessInitializeOnLoadMethodAttributes (91ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Launching external process: /Users/rishisridhar/Documents/2021.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.22 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (65.5 KB). Loaded Objects now: 4519.
-Memory consumption went from 145.5 MB to 145.5 MB.
-Total: 7.471095 ms (FindLiveObjects: 1.688302 ms CreateObjectMapping: 0.614600 ms MarkObjects: 4.984697 ms  DeleteObjects: 0.181476 ms)
+Unloading 39 unused Assets / (321.6 KB). Loaded Objects now: 4519.
+Memory consumption went from 145.4 MB to 145.0 MB.
+Total: 3.885500 ms (FindLiveObjects: 0.301291 ms CreateObjectMapping: 0.077459 ms MarkObjects: 3.075333 ms  DeleteObjects: 0.430208 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,155 +173,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 50231.959977 seconds.
-  path: Assets/Sprites/HairGuyWalk.anim
-  artifactKey: Guid(76d766db18053485db5715f43088f911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/HairGuyWalk.anim using Guid(76d766db18053485db5715f43088f911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02326ac9af7844afa00120bf59122dd2') in 0.238635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 139.034653 seconds.
-  path: Assets/Sprites/HairGuyWalk.gif
-  artifactKey: Guid(8944327ec5f4840d8b92d1a55372a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/HairGuyWalk.gif using Guid(8944327ec5f4840d8b92d1a55372a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba882b56cf2b60eb12a3f9a2a40212ab') in 0.815590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.072700 seconds.
-  path: Assets/Sprites/HairGuyWalk2.png
-  artifactKey: Guid(6827f5a81cb9340eea164eeef52e80c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/HairGuyWalk2.png using Guid(6827f5a81cb9340eea164eeef52e80c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb44465f3b1ffa35c21bf93060499f7') in 0.559519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 274.713405 seconds.
-  path: Assets/Sprites/HairGuy3.png
-  artifactKey: Guid(b4bab8b410e2849209b691517640d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/HairGuy3.png using Guid(b4bab8b410e2849209b691517640d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7477fb0634f9fe4f14dbabfee9c776d0') in 0.286020 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006399 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/kunal/Documents/GitHub/hairgame/My project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/kunal/Documents/GitHub/hairgame/My project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.176 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4177ms)
-		BeginReloadAssembly (634ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (41ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (276ms)
-		EndReloadAssembly (3251ms)
-			LoadAssemblies (412ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1128ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (187ms)
-			SetupLoadedEditorAssemblies (1435ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (46ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (268ms)
-				ProcessInitializeOnLoadAttributes (965ms)
-				ProcessInitializeOnLoadMethodAttributes (145ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4054 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (45.1 KB). Loaded Objects now: 4529.
-Memory consumption went from 159.1 MB to 159.0 MB.
-Total: 9.895555 ms (FindLiveObjects: 0.525918 ms CreateObjectMapping: 0.378579 ms MarkObjects: 8.814945 ms  DeleteObjects: 0.173261 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007803 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/kunal/Documents/GitHub/hairgame/My project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/kunal/Documents/GitHub/hairgame/My project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.955 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3959ms)
-		BeginReloadAssembly (637ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (39ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (265ms)
-		EndReloadAssembly (2915ms)
-			LoadAssemblies (285ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (940ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (186ms)
-			SetupLoadedEditorAssemblies (1337ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (222ms)
-				ProcessInitializeOnLoadAttributes (929ms)
-				ProcessInitializeOnLoadMethodAttributes (149ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4054 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (39.2 KB). Loaded Objects now: 4532.
-Memory consumption went from 159.1 MB to 159.0 MB.
-Total: 14.969751 ms (FindLiveObjects: 0.572283 ms CreateObjectMapping: 0.869962 ms MarkObjects: 13.354678 ms  DeleteObjects: 0.171085 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 278.047219 seconds.
-  path: Assets/Sprites/HairGuyWalk1.png
-  artifactKey: Guid(9ed9106711d554e14bda726c592a31e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/HairGuyWalk1.png using Guid(9ed9106711d554e14bda726c592a31e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0a6035498d9535d965983b9568a9bb') in 0.693575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.482715 seconds.
-  path: Assets/Sprites/HairGuyWalk2.png
-  artifactKey: Guid(6827f5a81cb9340eea164eeef52e80c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/HairGuyWalk2.png using Guid(6827f5a81cb9340eea164eeef52e80c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a357eab77a09dea3ee4e51f484b101c') in 0.283099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 84.353593 seconds.
-  path: Assets/HairGuyWalk.anim
-  artifactKey: Guid(76d766db18053485db5715f43088f911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HairGuyWalk.anim using Guid(76d766db18053485db5715f43088f911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c233625dc14dc20b500d9b886c895d') in 0.020263 seconds 
+  Time since last request: 1193646.682644 seconds.
+  path: Assets/CameraMovement.cs
+  artifactKey: Guid(892a28921423a4049b7192dfab0ee07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CameraMovement.cs using Guid(892a28921423a4049b7192dfab0ee07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bf5c8af7620c9bb0361816149fbe3c') in 0.117393 seconds 
