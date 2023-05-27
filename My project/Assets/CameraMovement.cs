@@ -9,6 +9,7 @@ public class CameraMovement : MonoBehaviour
     public int velocityFac;
     void LateUpdate()
     {
+
            // transform.Translate(Vector2.right * Input.GetAxis("Horizontal") / velocityFac, Space.World);
     }
 }

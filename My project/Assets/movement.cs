@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
-    public Rigidbody2D rb;
+   public Rigidbody2D rb;
+    //public BoxCollider2D feet;
     bool onGround = true;
     public int jumpHeight;
     public int dashFactor;
@@ -23,9 +24,9 @@ public class movement : MonoBehaviour
             onGround = false;
         }
         else if(Input.GetButtonDown("Fire2") && timer > 2){
-            transform.Translate(Vector2.right * dashFactor);
-          //rb.AddForce(new Vector2(dashFactor,0),ForceMode2D.Impulse);
-          timer = 0;
+           // transform.Translate(Vector2.right * dashFactor);
+            rb.AddForce(new Vector2(dashFactor*10,0),ForceMode2D.Impulse);
+            timer = 0;
         }
 
     }

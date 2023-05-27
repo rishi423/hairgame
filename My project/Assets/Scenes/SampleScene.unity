@@ -663,6 +663,7 @@ GameObject:
   - component: {fileID: 927937857}
   - component: {fileID: 927937860}
   - component: {fileID: 927937859}
+  - component: {fileID: 927937861}
   m_Layer: 0
   m_Name: Dynamic Sprite
   m_TagString: Untagged
@@ -804,16 +805,21 @@ PolygonCollider2D:
       - {x: -1.5999999, y: -2.4199998}
       - {x: -0.96, y: -2.4199998}
       - {x: -0.94, y: -2.3999999}
-      - {x: -0.48, y: -1.89}
-      - {x: 0.34, y: 0.87}
+      - {x: -1.1012025, y: -2.0379364}
+      - {x: -1.0885487, y: 0.088232875}
+      - {x: -0.79112625, y: 0.16458201}
+      - {x: -0.64236844, y: 1.0448343}
       - {x: 0.34, y: 2.1}
       - {x: -1.76, y: 2.1}
       - {x: -1.78, y: 2.08}
       - {x: -2.18, y: 1.8}
-      - {x: -3.06, y: 0.7}
+      - {x: -2.4730206, y: 0.55228734}
+      - {x: -3.002213, y: 0.4982682}
       - {x: -3.06, y: -0.16}
       - {x: -3.05, y: -0.19999999}
+      - {x: -2.8303967, y: -0.22606611}
       - {x: -2.72, y: -0.5}
+      - {x: -2.4916, y: -0.52846307}
       - {x: -2.4199998, y: -2.3999999}
       - {x: -2.3999999, y: -2.4199998}
       - {x: -1.76, y: -2.4199998}
@@ -853,6 +859,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawn: {fileID: 752111399}
+--- !u!61 &927937861
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927937852}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.7263651, y: -2.2862923}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 16, y: 16}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.361166, y: 0.30066347}
+  m_EdgeRadius: 0
 --- !u!1 &1070068576
 GameObject:
   m_ObjectHideFlags: 0
