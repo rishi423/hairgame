@@ -26,16 +26,9 @@ public class movement : MonoBehaviour
             onGround = false;
         }
         else if(Input.GetButtonDown("Fire2") && timer > 2){
-<<<<<<< Updated upstream
-            transform.Translate(dashFactor, 0, 0);
-            // rb.AddForce(new Vector2(dashFactor*10,0),ForceMode2D.Impulse);
+           // transform.Translate(dashFactor, 0, 0);
+            rb.AddForce(new Vector2(dashFactor*3,0),ForceMode2D.Impulse);
             // rb.AddForce(-Physics.gravity);
-=======
-           // transform.Translate(Vector2.right * dashFactor);
-           // rb.AddForce(-Physics.gravity);
-            rb.mass = 0.1f;
-            rb.AddForce(new Vector2(dashFactor/3.5f,0),ForceMode2D.Impulse);
->>>>>>> Stashed changes
             timer = 0;
             rb.mass = mass;
         }

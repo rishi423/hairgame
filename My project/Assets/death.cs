@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class death : MonoBehaviour
 {
-    public GameObject respawn;
+    public Transform enemy;
+    public Transform respawn;
+    public Transform enemyRespawn;
     public void die(){
-        transform.position = respawn.transform.position;
+        transform.position = respawn.position;
     //    transform.position.y = respawn.bounds.max.y + 10;
     }
 
@@ -15,6 +17,13 @@ public class death : MonoBehaviour
     {
         if(transform.position.y < -10){
             die();
+            enemy.position = enemyRespawn.position;
         }
     }
+    void OnTriggerEnter2D(Collider2D collision){
+            if(collision.gameObject.tag == "Enemy"){
+                die();
+                enemy.position = enemyRespawn.position;
+            }
+        }
 }

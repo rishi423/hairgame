@@ -372,6 +372,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/CameraMovement.cs"
 "Assets/death.cs"
+"Assets/enemyFollow.cs"
 "Assets/movement.cs"
 -langversion:9.0
 
